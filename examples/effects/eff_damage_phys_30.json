@@ -1,0 +1,14 @@
+{
+	"schema_version": 1,
+	"id": "eff_damage_phys_30",
+	"method": "unit.apply_damage",
+	"params": {
+		"amount": {
+			"$expr": "0.8 * caster.str + 12"
+		},
+		"damage_type": "physical"
+	},
+	"delay": 0.25,
+	"condition": "target.alive",
+	"on_error": "Continue"
+}

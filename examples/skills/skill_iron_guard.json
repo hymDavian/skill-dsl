@@ -1,0 +1,27 @@
+{
+	"schema_version": 1,
+	"id": "skill_iron_guard",
+	"name": "铁壁",
+	"kind": "Active",
+	"cast_time": 0.5,
+	"interruptible": true,
+	"cooldown": 12,
+	"targeting": {
+		"type": "Self",
+		"require_alive": true
+	},
+	"costs": [
+		{
+			"resource": "qi",
+			"amount": 10
+		}
+	],
+	"levels": [
+		{
+			"level": 1,
+			"effects": [
+				"eff_add_iron_guard"
+			]
+		}
+	]
+}

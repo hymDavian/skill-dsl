@@ -1,0 +1,27 @@
+{
+	"schema_version": 1,
+	"id": "skill_backstep",
+	"name": "后跃",
+	"kind": "Active",
+	"cast_time": 0.2,
+	"interruptible": true,
+	"cooldown": 5.0,
+	"targeting": {
+		"type": "Self"
+	},
+	"costs": [
+		{
+			"resource": "stamina",
+			"amount": 5
+		}
+	],
+	"levels": [
+		{
+			"level": 1,
+			"effects": [
+				"eff_turn_back",
+				"eff_dash_3"
+			]
+		}
+	]
+}

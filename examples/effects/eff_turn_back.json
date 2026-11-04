@@ -1,0 +1,9 @@
+{
+	"schema_version": 1,
+	"id": "eff_turn_back",
+	"method": "unit.turn",
+	"params": {
+		"degrees": 180
+	},
+	"on_error": "Abort"
+}

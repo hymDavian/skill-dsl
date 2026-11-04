@@ -1,0 +1,10 @@
+{
+	"schema_version": 1,
+	"id": "eff_add_poison",
+	"method": "unit.add_buff",
+	"params": {
+		"buff_id": "buff_poison"
+	},
+	"condition": "target.alive",
+	"on_error": "Continue"
+}

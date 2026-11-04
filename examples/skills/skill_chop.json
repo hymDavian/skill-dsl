@@ -1,0 +1,35 @@
+{
+	"schema_version": 1,
+	"id": "skill_chop",
+	"name": "劈柴式",
+	"kind": "Active",
+	"cast_time": 0.45,
+	"interruptible": true,
+	"cooldown": 3.0,
+	"targeting": {
+		"type": "Unit",
+		"range": 2.2,
+		"require_alive": true
+	},
+	"costs": [
+		{
+			"resource": "stamina",
+			"amount": 8
+		}
+	],
+	"levels": [
+		{
+			"level": 1,
+			"effects": [
+				"eff_damage_phys_30"
+			]
+		},
+		{
+			"level": 2,
+			"effects": [
+				"eff_damage_phys_30",
+				"eff_flag_drought"
+			]
+		}
+	]
+}

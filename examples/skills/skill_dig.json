@@ -1,0 +1,27 @@
+{
+	"schema_version": 1,
+	"id": "skill_dig",
+	"name": "刨土",
+	"kind": "Active",
+	"cast_time": 0.6,
+	"interruptible": true,
+	"cooldown": 1.0,
+	"targeting": {
+		"type": "TerrainCell",
+		"range": 3.0
+	},
+	"costs": [
+		{
+			"resource": "stamina",
+			"amount": 4
+		}
+	],
+	"levels": [
+		{
+			"level": 1,
+			"effects": [
+				"eff_terrain_dig"
+			]
+		}
+	]
+}
