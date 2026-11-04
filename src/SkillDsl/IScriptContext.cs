@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting;
+namespace SkillDsl;
 
 /// <summary>
 /// 表达式求值时向宿主索取变量的接口。

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace LivingWorld.Core.Scripting;
+namespace SkillDsl;
 
 /// <summary>
 /// 从一棵表达式树里提取它引用到的变量路径。

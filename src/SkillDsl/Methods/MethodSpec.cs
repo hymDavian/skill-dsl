@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting.Methods;
+namespace SkillDsl.Methods;
 
 /// <summary>
 /// 一个可被数据 / LLM 调用的原子方法。

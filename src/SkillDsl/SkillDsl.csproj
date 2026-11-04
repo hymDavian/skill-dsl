@@ -5,8 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <RootNamespace>LivingWorld.Scripting</RootNamespace>
-    <AssemblyName>LivingWorld.Scripting</AssemblyName>
+    <RootNamespace>SkillDsl</RootNamespace>
+    <AssemblyName>SkillDsl</AssemblyName>
     <LangVersion>latest</LangVersion>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
   </PropertyGroup>

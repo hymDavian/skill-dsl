@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting.Methods;
+namespace SkillDsl.Methods;
 
 /// <summary>方法派发的错误码。禁止在业务代码里裸写错误码字符串。</summary>
 public static class MethodErrorCodes

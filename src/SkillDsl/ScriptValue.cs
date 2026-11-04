@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace LivingWorld.Core.Scripting;
+namespace SkillDsl;
 
 /// <summary>脚本值的类型标签。</summary>
 public enum ScriptValueType

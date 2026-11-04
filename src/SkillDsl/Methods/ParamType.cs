@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting.Methods;
+namespace SkillDsl.Methods;
 
 /// <summary>方法参数的类型。仅用于参数表声明，与表达式内核的 <see cref="ScriptValueType"/> 是两套东西。</summary>
 /// <remarks>

@@ -1,8 +1,8 @@
-using LivingWorld.Core.Scripting;
-using LivingWorld.Core.Scripting.Methods;
+using SkillDsl;
+using SkillDsl.Methods;
 using Xunit;
 
-namespace LivingWorld.Core.Tests;
+namespace SkillDsl.Tests;
 
 public class MethodRegistryTests
 {

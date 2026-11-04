@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting.Methods;
+namespace SkillDsl.Methods;
 
 /// <summary>
 /// 调用方身份。<b>授权矩阵在这一层硬编码，不经数据配置</b>（可通过派生类扩展，但默认五个身份是固定的）。

@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting.Methods;
+namespace SkillDsl.Methods;
 
 /// <summary>一个方法参数的声明。</summary>
 public sealed class ParamSpec

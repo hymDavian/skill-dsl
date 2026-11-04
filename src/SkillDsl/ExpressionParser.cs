@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace LivingWorld.Core.Scripting;
+namespace SkillDsl;
 
 /// <summary>
 /// 手写递归下降解析器：文本表达式 → <see cref="Expression"/> AST。

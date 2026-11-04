@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting;
+namespace SkillDsl;
 
 /// <summary>一条表达式静态检查问题。</summary>
 public sealed record ScriptIssue(string Code, string Message);

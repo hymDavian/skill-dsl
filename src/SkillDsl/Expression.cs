@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting;
+namespace SkillDsl;
 
 /// <summary>一元运算符。</summary>
 public enum UnaryOperator

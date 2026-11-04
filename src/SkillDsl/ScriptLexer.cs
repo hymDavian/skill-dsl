@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting;
+namespace SkillDsl;
 
 /// <summary>词法单元种类。仅供解析器内部使用。</summary>
 internal enum ScriptTokenKind

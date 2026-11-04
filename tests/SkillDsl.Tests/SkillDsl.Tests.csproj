@@ -7,7 +7,7 @@
     <LangVersion>latest</LangVersion>
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
-    <RootNamespace>LivingWorld.Scripting.Tests</RootNamespace>
+    <RootNamespace>SkillDsl.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\LivingWorld.Scripting\LivingWorld.Scripting.csproj" />
+    <ProjectReference Include="..\..\src\SkillDsl\SkillDsl.csproj" />
   </ItemGroup>
 
 </Project>

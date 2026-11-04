@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting.Methods;
+namespace SkillDsl.Methods;
 
 /// <summary>
 /// 方法派发器：把一个"方法 Id + 实参列表"变成一次真实调用。

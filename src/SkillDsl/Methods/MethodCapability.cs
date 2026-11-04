@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting.Methods;
+namespace SkillDsl.Methods;
 
 /// <summary>
 /// 方法能力标签。<b>位标志</b>：方法声明"需要哪些能力"，身份声明"拥有哪些能力"。

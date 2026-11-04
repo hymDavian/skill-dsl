@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting.Methods;
+namespace SkillDsl.Methods;
 
 /// <summary>
 /// 方法的副作用标记。用于"只读身份"与审计，不参与能力授权计算。

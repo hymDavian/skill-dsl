@@ -1,10 +1,10 @@
-# livingworld-dsl
+# skill-dsl
 
-**把游戏技能写成 JSON，而不是写成代码。**
+**把技能写成 JSON，而不是写成代码。**
 
 一个可独立复用的声明式技能内核：技能引用效果，效果调用原子方法，参数是沙箱表达式。
 
-> 摘自在研项目《人间众生录》的 `LivingWorld.Core`。独立成库后：**0 编译警告**（`TreatWarningsAsErrors` 开着）、**24 个单元测试全绿**。
+这套内核在一套正在开发的游戏里已经跑了一段时间，抽成独立库后：**0 编译警告**（`TreatWarningsAsErrors` 开着）、**24 个单元测试全绿**。
 
 ---
 
@@ -79,7 +79,7 @@
 
 ### 2. 一张方法表，两个消费者
 
-同一份方法表既供运行时调用，也供 LLM 生成动作——后者是"工具表"。
+同一份方法表既供运行时调用，也供大模型生成动作——后者是"工具表"。
 
 ```csharp
 IReadOnlyList<MethodSpec> GetInvocableBy(ExecutionPrincipal principal);
@@ -99,7 +99,7 @@ IReadOnlyList<MethodSpec> GetInvocableBy(ExecutionPrincipal principal);
 
 ```bash
 git clone <repo>
-cd livingworld-dsl
+cd skill-dsl
 dotnet test
 ```
 
@@ -110,11 +110,11 @@ dotnet test
 ## 目录
 
 ```
-src/LivingWorld.Scripting/     内核（方法表、表达式、脚本值）
-tests/LivingWorld.Scripting.Tests/   24 个单元测试
-examples/skills/               技能数据示例（真实项目数据）
-examples/effects/              效果数据示例
-docs/为什么技能是数据.md        设计长文
+src/SkillDsl/          内核（方法表、表达式、脚本值）
+tests/SkillDsl.Tests/  24 个单元测试
+examples/skills/       技能数据示例
+examples/effects/      效果数据示例
+docs/为什么技能是数据.md  设计长文
 ```
 
 ---
@@ -132,14 +132,8 @@ docs/为什么技能是数据.md        设计长文
 
 ---
 
-## 关于主项目
-
-《人间众生录》——一个 LLM 驱动 NPC 的开放世界武侠 RPG：NPC 有履历、有记忆、会记得你撒过的谎；技能、物品、委托全部是可读的 JSON。
-
-本库是它被反复用到的那一层：**规则必须可声明、可校验、可回放，才敢让大模型往里塞东西。**
-
----
-
 ## License
 
 MIT，见 [LICENSE](./LICENSE)。
+
+*by HYM*

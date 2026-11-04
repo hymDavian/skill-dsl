@@ -1,6 +1,6 @@
-using LivingWorld.Core.Scripting;
+using SkillDsl;
 
-namespace LivingWorld.Core.Scripting.Narration;
+namespace SkillDsl.Narration;
 
 /// <summary>
 /// 世界事件的表达式上下文：只提供 <c>event_*</c> 几个字段，外加叙述通道。

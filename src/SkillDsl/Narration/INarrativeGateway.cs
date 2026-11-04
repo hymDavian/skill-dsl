@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting.Narration;
+namespace SkillDsl.Narration;
 
 /// <summary>待播条目的种类（<c>narr.*</c>）。</summary>
 public enum NarrativeKind

@@ -1,4 +1,4 @@
-namespace LivingWorld.Core.Scripting;
+namespace SkillDsl;
 
 /// <summary>一个可在 DSL 中调用的函数。</summary>
 public sealed class ScriptFunction
