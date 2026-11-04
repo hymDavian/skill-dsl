@@ -1,5 +1,9 @@
 # skill-dsl
 
+[![release](https://img.shields.io/github/v/release/hymDavian/skill-dsl)](https://github.com/hymDavian/skill-dsl/releases)
+[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4)](https://dotnet.microsoft.com/)
+[![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+
 **把技能写成 JSON，而不是写成代码。**
 
 一个可独立复用的声明式技能内核：技能引用效果，效果调用原子方法，参数是沙箱表达式。
